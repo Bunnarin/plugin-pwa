@@ -45,6 +45,9 @@ export const PwaInstallButton: React.FC = () => {
       e.preventDefault();
       deferredPrompt = e as BeforeInstallPromptEvent;
       setInstallable(true);
+
+      // Auto-prompt the user on first event
+      deferredPrompt.prompt();
     };
 
     window.addEventListener('beforeinstallprompt', handler);

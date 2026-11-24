@@ -1,6 +1,6 @@
 {
   "name": "@bunnarin/plugin-pwa",
-  "version": "2.2.41",
+  "version": "2.2.43",
   "main": "dist/server/index.js",
   "dependencies": {},
   "peerDependencies": {
